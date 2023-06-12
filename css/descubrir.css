@@ -1,0 +1,28 @@
+
+.descubrirseccion4{
+    background-image: url(../img/bannerreinadescubrir.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.descubrirseccion4-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 743px) {
+    .descubrirseccion4{
+        background-image: url(../img/bannerreinadescubrir.png);
+        height: 360px;
+        width: 100%;
+        background-position-x: -100px;
+        background-size: cover;
+    
+    }
+}

@@ -1,0 +1,13 @@
+.headerDeskTablet-Hisotoria{
+    background-image: url('/img/bailetp3.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.historiaseccion3{
+    background-image: url(/img/bcNav.jpeg);
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Yellowed-Light;
+}

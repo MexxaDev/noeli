@@ -1,0 +1,74 @@
+@media (max-width: 743px) {
+    /* NAVEGACION REPARTO */
+    .headerMobileReparto{
+        background-image: url('/img/bcNav.jpeg');
+        height: 210px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yellowed-Light;
+    }
+    .headerDeskTabletReparto{
+        display: none;
+    }
+
+    /* NAVEGACION DESCUBRIR*/
+    .headerDeskTabletDescubrir{
+        background-image: url('/img/Descubrirbanner.png') !important;
+        height: 210px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yellowed-Light;
+    }
+    .headerMobileDescubrir{
+        display: none;
+    }
+    
+    /* NAVEGACION HISTORIA*/
+    .headerDeskTableHistoria{
+        background-image: url('/img/Descubrirbanner.png');
+        height: 210px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yellowed-Light;
+
+    }
+    .headerMobilHistoria{
+        display: none;
+    }
+}
+@media (min-width: 744px) {
+
+    /* NAVEGACION REPARTO */
+    .headerDeskTabletReparto{
+        background-image: url('/img/bcNav.jpeg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerMobileReparto{
+        display: none;
+    }
+
+    /* NAVEGACION DESCUBRIR*/
+    .headerDeskTabletDescubrir{
+        background-image: url('/img/Descubrirbanner.png') !important;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerMobileDescubrir{
+        display: none;
+    }
+    /* NAVEGACION HISTORIA*/
+    .headerDeskTableHistoria{
+        background-image: url('/img/bcNav.jpeg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .headerMobilHistoria{
+        display: none;
+    }
+
+}
