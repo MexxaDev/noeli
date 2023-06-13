@@ -3,6 +3,7 @@
     background-image: url(../img/bcNav.jpeg) !important;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .T2textnewsletter  {
     text-align: center;
