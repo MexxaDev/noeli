@@ -1,13 +1,19 @@
-.headerDeskTablet-Hisotoria{
-    background-image: url('/img/bailetp3.jpeg');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.headertextHistoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
 }
-.historiaseccion3{
-    background-image: url(/img/bcNav.jpeg);
-    height: 210px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Yellowed-Light;
+.headertextHistoria-p{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+}
+@media(max-width:768){
+    .seccion4historia{
+        width: 100%;
+    }
 }

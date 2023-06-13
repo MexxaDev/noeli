@@ -5,52 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reparto.css">
-  <link rel="stylesheet" href="css/header.css">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reparto.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+<!--   <link rel="stylesheet" href="css/style.css"> -->
   <title>Reparto</title>
 </head>
 
 <body>
   <header
-    class="headerDeskTabletReparto container-fluid d-flex flex-column justify-content-center align-items-center contenedorNavegacion">
-    <h1 class="mb-5 tituloNavegacion">REPARTO</h1>
-    <nav class="NavDeskTablet mt-5">
-      <a class="mx-5 textYellow" style="color:white; text-decoration: none;" href="index.html">Inicio</a>
-      <a class="mx-5 textYellow" style="color:white; text-decoration: none;" href="reparto.html">Reparto</a>
-      <a class="mx-5 textYellow" style="color:white; text-decoration: none;" href="historia.html">Historia</a>
-      <a class="mx-5 textYellow" style="color:white; text-decoration: none;" href="descubrir.html">Descubrir</a>
+    class="heaader headerReparto container-fluid d-flex flex-column justify-content-center align-items-center contenedorNavegacion">
+    <h1 class="mb-5 header-titulo" style="color: #dfd7cf; font-size: xxx-large;">REPARTO</h1>
+    <nav class="header-nav mt-5">
+      <a class="mx-5 textYellow navLinksIndex textYellow" style="color:white; text-decoration: none;"
+        href="index.html">Inicio</a>
+      <a class="mx-5 textYellow navLinksIndex textYellow" style="color:white; text-decoration: none;"
+        href="reparto.html">Reparto</a>
+      <a class="mx-5 textYellow navLinksIndex textYellow" style="color:white; text-decoration: none;"
+        href="historia.html">Historia</a>
+      <a class="mx-5 textYellow navLinksIndex textYellow" style="color:white; text-decoration: none;"
+        href="descubrir.html">Descubrir</a>
     </nav>
   </header>
   <!-- HEADER  MOBILE-->
-  <header class="headerMobileReparto ">
-    <nav class="pt-2 navbar navbar-expand-lg navbar-dark bg-dark"
-      style="background-color: rgba(255, 255, 255, 0) !important; ">
+  <header class="heaadermob headerRepartoMobile">
+    <nav class="navIndexMobile pt-2 navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand textYellow " href="#">REPARTO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">REPARTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" style="font-size: 10px;" href="index.html">Inicio</a>
+              <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="font-size: 10px;" href="reparto.html">Reparto</a>
+              <a class="nav-link active" href="reparto.html">Reparto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="font-size: 10px;" href="historia.html">Historia</a>
+              <a class="nav-link " aria-current="page" href="historia.html">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="font-size: 10px;" href="descubrir.html">Descubrir</a>
+              <a class="nav-link " aria-current="page" href="descubrir.html">Descubrir</a>
             </li>
-          </ul>
           </ul>
         </div>
       </div>
@@ -58,12 +60,11 @@
   </header>
 
   <main class="reparto-main">
-
-    <div class="mb-5 container-fluid d-flex flex-wrap align-items-center justify-content-evenly py-2">
+    <div class="my-5 pt-lg-5 container-fluid d-flex flex-wrap align-items-center justify-content-evenly py-2">
       <img  class="reparto-main_container1-img1"  src="img/Seccion.jpeg" alt="">
       <div class="container mb-5 w-50 d-flex align-items-center flex-column justify-content-evenly">
         <h4 class="reparto-main_container1-container1-t1">Director</h4>
-        <h4 class="reparto-main_container1-container1-t2">a. Chris Van Dusen</h4>
+        <h4 class="reparto-main_container1-container1-t2">Chris Van Dusen</h4>
         <p class="reparto-main_container1-container1-p1">Actividades Guionista, Diseñador, Productor delegado Nacionalidad Ee.uu. Nacimiento 17 de marzo de 1960 (Maryland - Estados Unidos)Edad 63 años</p>
         <div class="container"></div>
         <h4 class="reparto-main_container1-container1-t3">BIOGRAFÍA</h4>
@@ -90,29 +91,29 @@
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Phoebe Dynevor.</p>
-            <p class="textCard-reparto">Personaje : Daphne Bridgerton.</p>
+            <h6 class="textCard-reparto">Phoebe Dynevor.</h6>
+            <p class="textCard-reparto textForum">Personaje : Daphne Bridgerton.</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Rege-Jean Page.</p>
-            <p class="textCard-reparto">Personaje : Simon Basset.</p>
+            <h6 class="textCard-reparto">Rege-Jean Page.</h6>
+            <p class="textCard-reparto textForum">Personaje : Simon Basset.</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Claudia Jessie.</p>
-            <p class="textCard-reparto">ersonaje : Eloise Bridgerton.</p>
+            <h6 class="textCard-reparto">Claudia Jessie.</h6>
+            <p class="textCard-reparto textForum">ersonaje : Eloise Bridgerton.</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Ruth Gemmel.</p>
-            <p class="textCard-reparto">Personaje : Lady Violet Bridgerto.</p>
+            <h6 class="textCard-reparto">Ruth Gemmel.</h6>
+            <p class="textCard-reparto textForum">Personaje : Lady Violet Bridgerto.</p>
           </div>
         </div>
       </div>
@@ -120,8 +121,8 @@
     </div>
 
     <div class="container-fluid">
-      <h4 class="reparto-main_container2-t1">Ver reparto completo de la temporada 1</h4>
-      <div id="carouselExample m-1 mt-5 mb-5" class="carousel slide mt-1">
+      <h5 class="reparto-main_container4-t1">Ver reparto completo de la temporada 1</h5>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/sliderreparto2.jpeg" class="d-block w-100" alt="...">
@@ -133,11 +134,12 @@
             <img src="img/sliderreparto4.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -150,38 +152,43 @@
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Phoebe Dynevor</p>
-            <p class="textCard-reparto">Personaje : Daphne Bridgerton</p>
+            <h6 class="textCard-reparto">Phoebe Dynevor</h6>
+            <p class="textCard-reparto textForum">Personaje : Daphne Bridgerton</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Rege-Jean Page</p>
-            <p class="textCard-reparto">Personaje : Simon Basset</p>
+            <h6 class="textCard-reparto">Rege-Jean Page</h6>
+            <p class="textCard-reparto textForum">Personaje : Simon Basset</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Claudia Jessie.</p>
-            <p class="textCard-reparto">Personaje : Eloise Bridgerton.</p>
+            <h6 class="textCard-reparto">Claudia Jessie.</h6>
+            <p class="textCard-reparto textForum">Personaje : Eloise Bridgerton.</p>
           </div>
         </div>
         <div class="card" style="width: 20rem;">
           <img src="img/personajes/Colin.jpeg" class="card-img-top" alt="">
           <div class="card-body">
-            <p class="textCard-reparto">Ruth Gemmell</p>
-            <p class="textCard-reparto">Personaje : Lady Violet Bridgerton.</p>
+            <h6 class="textCard-reparto">Ruth Gemmell</h6>
+            <p class="textCard-reparto textForum">Personaje : Lady Violet Bridgerton.</p>
           </div>
         </div>
       </div>
 
     </div>
 
-    <div class="container-fluid mt-5 pb-5">
-      <h4 class="reparto-main_container4-t1">Ver reparto completo de la temporada 2</h4>
-      <div id="carouselExample m-1 mt-5 mb-5" class="carousel slide">
+    <div class="container-fluid mt-5">
+      <h5 class="reparto-main_container4-t1">Ver reparto completo de la temporada 2</h5>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/sliderreparto2.jpeg" class="d-block w-100" alt="...">
@@ -193,11 +200,11 @@
             <img src="img/sliderreparto4.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -205,44 +212,50 @@
     </div>
   </main>
 
-  <div style="background-color: rgba(255, 0, 0, 0);" class="footer d-flex  flex-column align-items-md-center pt-5 justify-content-evenly ">
-    <img class="footerDesk" src="/img/Footerbc.jpeg"" alt="">
-    <div class=" mt-5 footer--contImagen container-fluid d-flex flex-column align-items-center justify-content-center">
+
+  <!-- FOOTER -->
+  <div  class="footer d-flex py-5 flex-column align-items-md-center py-5 justify-content-evenly ">
+    <div style="background-color: #dfd7cf;" class="  footer--contImagen container-fluid d-flex flex-column align-items-center
+          justify-content-center">
       <img width="120px" src="/img/footerLogo.png" class="imgFooter" alt="">
-      <h2  style="margin: 0px !important;" class="TtextFooter">Lady Whistledown's</h2>
+      <h2 style="margin: 0px !important;" class="TtextFooter">Lady Whistledown's</h2>
       <h3 class="T2textFooter">SOCIETY PAPERS</h3>
       <div class="">
-        <h4 style="margin: 0px !important;" class="T1textnewsletter textForum text-center">¿Quieres saber mas sobre BRIDGERTON?</h4>
+        <h4 style="margin: 0px !important;" class="T1textnewsletter textForum text-center">¿Quieres saber mas sobre
+          BRIDGERTON?</h4>
         <p class="T2textnewsletter textForum">Dejanos tu mail y mantenete informado de las últimas novedades.</p>
       </div>
-    </div>
-
-    <div class="d-flex justify-content-center"> <!-- Flex justify center -->
-      <input style="padding-left: 15px; background-color: #dfd7cf94; border: 1px solid white; border-top-left-radius: 30px; border-bottom-left-radius: 30px;" placeholder="Email:" type="mail" >
-      <input style=" color: black; background-color: #82b4c596; border: 1px solid white; border-top-right-radius: 30px; border-bottom-right-radius: 30px;" type="submit"  value="SUSCRIBIRSE">
-    </div>
-    <div class="mt-4 d-flex justify-content-center">
-      <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40"
-          height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-        </svg></a>
-      <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40"
-          height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <rect x="4" y="4" width="16" height="16" rx="4" />
-          <circle cx="12" cy="12" r="3" />
-          <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-        </svg></a>
-      <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="40"
-          height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path
-            d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-        </svg></a>
+      <div class="d-flex justify-content-center"> <!-- Flex justify center -->
+        <input
+          style="padding-left: 15px; background-color: #dfd7cf94; border: 1px solid white; border-top-left-radius: 30px; border-bottom-left-radius: 30px;"
+          placeholder="Email:" type="mail">
+        <input
+          style=" color: black; background-color: #82b4c596; border: 1px solid white; border-top-right-radius: 30px; border-bottom-right-radius: 30px;"
+          type="submit" class="textForum" value="SUSCRIBIRSE">
+      </div>
+      <div class="mt-4 d-flex justify-content-center">
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+            width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+            width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="40"
+            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#92b6c2" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+          </svg></a>
+      </div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

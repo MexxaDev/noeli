@@ -1,0 +1,20 @@
+.cardIndeximg{
+    opacity: 0.72;
+}
+.cardIndeximg:hover{
+    opacity: 1;
+}
+.indexSeccion3Img{
+    transition: transform 1s ease;
+}
+.indexSeccion3Img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media (max-width: 768px) { 
+    .indexSeccion3Img{
+        width: 300px;
+        height: 200px;
+    }
+
+}
